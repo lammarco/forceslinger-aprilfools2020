@@ -30,5 +30,4 @@ Controls: (Currently configurable in the downloadable, but the web version will 
 -z,x - shoot left/right respectively, same as mouse right click, hold left_shift to act as mouse left click
 
 =======
->>>>>>> parent of c2c870a... 0.40
 For the full downloadable version: go to [the itch.io page](https://lammarco.itch.io/forceslinger).
