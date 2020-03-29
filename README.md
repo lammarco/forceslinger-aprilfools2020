@@ -1,4 +1,5 @@
 # ForceSlinger- April Fools 2020 Version
+Play on the web: https://lammarco.github.io/forceslinger-aprilfools2020/
 Play the original: https://lammarco.github.io/forceslinger/
 
 ## Welcome to ForceSlinger!
