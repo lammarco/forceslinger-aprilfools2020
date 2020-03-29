@@ -5,21 +5,32 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | ForceSlinger</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/webgl.json", {onProgress: UnityProgress});
-    </script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">ForceSlinger</div>
-      </div>
-    </div>
+	<div class="inner-column">
+		<div class="inner-column-background">
+			<div class="game-container">
+				<iframe class="square" width="800px" height="600px" src="game.html" frameborder="0" id="game" scrolling="no"></iframe>
+			</div>
+			<div class="instruction">
+				<h2>How to Play</h2>
+				<p>A mouse is strongly recommended to play this game. (Keyboard-only controls below)</p>
+				<p>Controls: (subject to change in future updates)</p>
+				<p>-a/d - left/right moving (applies a linear force as well as torque)</p>
+				<p>-w/s - jump up/down; when in space, same movement as a/d</p>
+				<p>-space - change a/d to only apply a stronger torque</p>
+				<p>-left_shift - force player's to not rotate as much (a brake); when in space, move slower</p>
+				<p>-mouse left/right click - fires 1/3 particles (when having the particle launcher)</p>
+				<p>---KEYBOARD CONTROLS---</p>
+				<p>-left/right arrow keys = a/d controls</p>
+				<p>-up/down arrow keys = w/s controls</p>
+				<p>-space,left_shift are the same</p>
+				<p>-z,x - shoot left/right respectively, same as mouse right click, hold left_shift to act as mouse left click</p>
+				<br>
+				<p>For the full downloadable version: go to <a href="https://lammarco.itch.io/forceslinger" rel="nofollow">the itch.io page</a>.</p>
+			</div>
+		</div>
+	</div>
   </body>
 </html>
